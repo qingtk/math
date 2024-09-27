@@ -14,10 +14,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://math.qing.tk',
+  url: 'https://qing.tk',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/math/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -37,8 +37,8 @@ const config = {
   stylesheets: [
     {
       // href: 'https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css',
-      // href: 'https://unpkg.com/katex@0.12.0/dist/katex.min.css',
-      href: '/katex/katex.min.css',
+      href: 'https://unpkg.com/katex@0.12.0/dist/katex.min.css',
+      // href: '/katex/katex.min.css',
       type: 'text/css',
       integrity:
         'sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X',
